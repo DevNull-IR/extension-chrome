@@ -1,0 +1,33 @@
+{
+
+    "name": "پلاگین کوتاه کننده لینک",
+    
+    "description": "کوتاه کننده لینک رایگان f1r.ir",
+    
+    "version": "5.0",
+    
+    "manifest_version": 3,
+    
+    "background": {
+    
+    "service_worker": "background.js"
+    
+    },
+    "permissions": [ "storage" , "scripting" , "tabs" , "management" , "webNavigation" , "webRequest" ],
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":{
+            "16": "/img/f.png",
+            "32": "/img/f.png",
+            "48": "/img/f.png",
+            "128": "/img/f.png"
+        },
+        "icons":{
+            "16": "/img/f.png",
+            "32": "/img/f.png",
+            "48": "/img/f.png",
+            "128": "/img/f.png"
+        }
+    }
+    
+    }
